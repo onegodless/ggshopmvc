@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"4.8.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"ggshop"},
+{"type":"table","name":"games","database":"ggshop","data":
+[
+{"id":"1","name":"Batman 1","plataforms":"XBOX ONE, PS4","price":"22.45","description":"Batman 1 game.","image":"ggshop\/imgs\/games\/batman_1.jpeg"},
+{"id":"2","name":"Batman 2","plataforms":"XBOX ONE, PS4","price":"30.85","description":"Batman 2 game.","image":"ggshop\/imgs\/games\/batman_1.jpeg"},
+{"id":"3","name":"Batman 3","plataforms":"XBOX ONE, PS4","price":"32.95","description":"Batman 3 game.","image":"ggshop\/imgs\/games\/batman_1.jpeg"},
+{"id":"4","name":"Batman 4","plataforms":"XBOX ONE, PS4","price":"42.30","description":"Batman 3 game.","image":"ggshop\/imgs\/games\/batman_1.jpeg"},
+{"id":"5","name":"Batman 5","plataforms":"XBOX ONE, PS4","price":"48.15","description":"Batman 5 game.","image":"ggshop\/imgs\/games\/batman_1.jpeg"},
+{"id":"6","name":"Batman 6","plataforms":"XBOX ONE, PS4","price":"55.65","description":"Batman 6 game.","image":"ggshop\/imgs\/games\/batman_1.jpeg"}
+]
+}
+]
