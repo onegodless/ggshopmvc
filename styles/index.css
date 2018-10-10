@@ -1,0 +1,20 @@
+.article_box{
+	display:inline;
+	float: left;
+	margin: 25px;
+	padding: 10px;
+	border: 1px solid black;
+}
+.cover_img{
+	
+	height: 300px;
+	width: 250px;
+}
+a{
+	z-index: 3;
+	
+}
+a:hover{
+	background-color: pink;
+	z-index: 3;
+}

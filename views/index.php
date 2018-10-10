@@ -9,6 +9,7 @@ function showIndex(){
 		<html>
 		<head>
 			<script src="../scripts/search.js"></script>
+            <link rel="stylesheet" type="text/css" href=../styles/index.css>
 			'.$header.'
 		</head>
 		<body>
