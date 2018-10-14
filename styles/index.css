@@ -10,11 +10,6 @@
 	height: 300px;
 	width: 250px;
 }
-a{
-	z-index: 3;
-	
-}
-a:hover{
+.article_box:hover{
 	background-color: pink;
-	z-index: 3;
 }

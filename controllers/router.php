@@ -1,7 +1,9 @@
 <?php
 
-include  DIR.'views/index.php';
-include DIR.'views/singup.php';
+require DIR.'views/index.php';
+require DIR.'views/singup.php';
+require DIR.'models/getarticle.php';
+require DIR.'views/article.php';
 
 class Router
 {
@@ -18,9 +20,12 @@ class Router
 			case '/singup':
 				showSingup();
 				break;
+			case '/article':
+			    $model_article = getArticle();
+			     showArticle($model_article);
+			    break;
 			default:
 				showIndex();
-				
 		}
 	}
 

@@ -1,6 +1,6 @@
 <?php
 
-include 'header.php';
+require 'header.php';
 	
 function showIndex(){
 	global $header;
@@ -9,7 +9,7 @@ function showIndex(){
 		<html>
 		<head>
 			<script src="../scripts/search.js"></script>
-            <link rel="stylesheet" type="text/css" href=../styles/index.css>
+            <link rel="stylesheet" type="text/css" href="../styles/index.css">
 			'.$header.'
 		</head>
 		<body>
